@@ -1,0 +1,25 @@
+.category-filters {
+  padding: 1rem 3rem;
+}
+
+.category-filter-container .category-header {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  border-top: 1px solid var(--element-border);
+  border-bottom: 1px solid var(--element-border);
+}
+
+.category-filters > * {
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .category-filters {
+    padding: 1rem;
+  }
+
+  .category-filter-container .category-header {
+    padding: 1rem;
+  }
+}

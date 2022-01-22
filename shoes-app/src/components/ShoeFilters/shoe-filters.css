@@ -1,0 +1,16 @@
+.shoe-filters-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: var(--left-panel-width);
+  height: 100%;
+  padding-top: 3rem;
+  border-right: 1px solid var(--element-border);
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .shoe-filters-container {
+    display: none;
+  }
+}

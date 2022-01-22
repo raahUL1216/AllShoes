@@ -1,0 +1,15 @@
+/* style for scrollbar in suggestions   */
+.shoe-listing-container::-webkit-scrollbar,
+.shoe-filters-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.shoe-listing-container::-webkit-scrollbar-track,
+.shoe-filters-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #0000004d;
+}
+
+.shoe-listing-container::-webkit-scrollbar-thumb,
+.shoe-filters-container::-webkit-scrollbar-thumb {
+  background-color: #b6b6b6;
+}
