@@ -2,6 +2,7 @@ import React from 'react';
 import ShoeList from '../ShoeList/ShoeList';
 import CheckboxFilter from '../CheckboxFilter/CheckboxFilter';
 import './shoe-listing.css';
+import '../../styles/common-styles.css';
 
 const ShoeListing = () => {
 	return (

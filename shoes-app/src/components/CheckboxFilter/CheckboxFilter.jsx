@@ -8,7 +8,7 @@ const CheckboxFilter = () => {
 				<input type="checkbox"
 					className='filter__input'
 					name="sort-by-price-filter" />
-				Sort by Price
+				<span>Sort by Price</span>
 			</label>
 		</div>
 	);

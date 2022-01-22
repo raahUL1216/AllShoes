@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: min(400px, 98vw);
+  width: min(400px, 96vw);
   background: var(--color-bg-search-input);
   padding: 0.5rem;
   color: white;
@@ -30,4 +30,10 @@
 
 .search-input::placeholder {
   color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .search-input-wrapper {
+    margin-left: 0.5rem;
+  }
 }
