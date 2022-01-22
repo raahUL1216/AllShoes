@@ -1,0 +1,6 @@
+.shoe-filters-container {
+  width: var(--left-panel-width);
+  height: 100%;
+  padding-top: var(--container-space-top);
+  border-right: 1px solid var(--element-border);
+}

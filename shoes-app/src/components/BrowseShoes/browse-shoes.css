@@ -1,0 +1,13 @@
+.browse-shoes-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.browse-shoe-body {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
+  height: var(--filter-container-height);
+}
