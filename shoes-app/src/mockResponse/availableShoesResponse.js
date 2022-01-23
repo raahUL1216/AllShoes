@@ -68,7 +68,7 @@ export const availableShoes = [
 		name: 'Wood Pro',
 		price: '400',
 		brand: 'Woodland',
-		color: ['grey', 'white'],
+		color: ['grey'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '45', '46', '47'],
 		category: 'Casual',
 		images: {
@@ -84,7 +84,7 @@ export const availableShoes = [
 		name: 'Running shoes',
 		price: '200',
 		brand: 'Puma',
-		color: ['grey', 'white'],
+		color: ['grey'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '45', '46', '47'],
 		category: 'Sports',
 		images: {
@@ -100,7 +100,7 @@ export const availableShoes = [
 		name: 'Running shoes',
 		price: '300',
 		brand: 'Reabok',
-		color: ['blue', 'white'],
+		color: ['blue', 'red'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47'],
 		category: 'Sports',
 		images: {
