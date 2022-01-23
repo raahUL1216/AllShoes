@@ -4,7 +4,7 @@ export const availableShoes = [
 		name: 'Nike Air',
 		price: '120',
 		brand: 'Nike',
-		color: ['black', 'white'],
+		color: ['black'],
 		size: ['36', '37', '38', '45', '46'],
 		category: 'Sneakers',
 		images: {
@@ -196,7 +196,7 @@ export const availableShoes = [
 		name: 'Nike Air Max',
 		price: '150',
 		brand: 'Nike',
-		color: ['white', 'grey'],
+		color: ['white'],
 		size: ['36', '37', '38', '39', '45', '46', '47'],
 		category: 'Sneakers',
 		images: {
@@ -228,7 +228,7 @@ export const availableShoes = [
 		name: 'Mocassin For Men',
 		price: '400',
 		brand: 'ALLEVIATER',
-		color: ['black'],
+		color: ['brown'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
 		category: 'Mocassin',
 		images: {
