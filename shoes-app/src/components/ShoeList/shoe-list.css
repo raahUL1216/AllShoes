@@ -1,71 +1,7 @@
 .shoe-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   margin-top: var(--container-space-top);
-}
-
-.shoe-list > div.shoe-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  min-width: 15rem;
-  height: 18rem;
-  min-height: 18rem;
-
-  padding: 1rem;
-  margin: 1rem 0;
-  text-align: center;
-  border: 1px solid var(--element-border);
-  border-radius: 5px;
-}
-
-.shoe-item .shoe-header {
-  text-align: start;
-}
-
-.shoe-item .shoe-additional-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.shoe-item .shoe-item-image {
-  width: 13rem;
-  height: 6rem;
-}
-
-.shoe-item .shoe-item-image > img {
-  width: 100%;
-  height: 100%;
-}
-
-.shoe-item .shoe-price-info {
-  padding: 5px;
-}
-
-.shoe-item .shoe-additional-images > img {
-  width: 3rem;
-  height: 3rem;
-  padding: 5px;
-  margin: 5px;
-  border: 1px solid var(--element-border);
-  border-radius: 10px;
-}
-
-.shoe-header .shoe-name,
-.shoe-price-info .price-title {
-  color: grey;
-}
-
-.shoe-price-info .price-title {
-  font-size: 0.8rem;
-  padding-bottom: 3px;
-}
-
-.shoe-price-info > div {
-  text-align: start;
 }

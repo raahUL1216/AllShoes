@@ -4,7 +4,7 @@
   justify-content: flex-start;
   width: var(--left-panel-width);
   height: 100%;
-  padding-top: 3rem;
+  padding-top: 2rem;
   border-right: 1px solid var(--element-border);
   overflow-y: auto;
 }

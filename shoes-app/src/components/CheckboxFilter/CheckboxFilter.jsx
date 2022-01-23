@@ -1,14 +1,15 @@
 import React from 'react';
 import './checkbox-filter.css';
 
-const CheckboxFilter = () => {
+const CheckboxFilter = (props) => {
 	return (
 		<div className='checkbox-filter'>
 			<label className="form-control">
 				<input type="checkbox"
 					className='filter__input'
-					name="sort-by-price-filter" />
-				<span>Sort by Price</span>
+					name={props.label}
+					onChange={props.applyCheckboxFilter} />
+				<span>{props.label}</span>
 			</label>
 		</div>
 	);
