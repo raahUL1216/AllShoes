@@ -1,7 +1,7 @@
 /* style for scrollbar in suggestions   */
 .shoe-listing-container::-webkit-scrollbar,
 .shoe-filters-container::-webkit-scrollbar {
-  width: 10px;
+  width: 0.8rem;
 }
 
 .shoe-listing-container::-webkit-scrollbar-track,

@@ -2,15 +2,14 @@ import React from 'react';
 import SearchInput from '../SearchInput/SearchInput';
 import './navbar.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
 	return (
 		<div className='navbar-container'>
-			<div className='navbar-title'>Shoe.</div>
+			<div className='navbar-title'>AllShoes</div>
 
 			<SearchInput
-			// searchText={searchText}
-			// searchShoe={searchShoe}
-			// setSearchText={setSearchText}
+				filters={props.filters}
+				setFilters={props.setFilters}
 			/>
 		</div>
 	);

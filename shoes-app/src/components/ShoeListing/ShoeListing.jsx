@@ -4,15 +4,31 @@ import CheckboxFilter from '../CheckboxFilter/CheckboxFilter';
 import './shoe-listing.css';
 import '../../styles/common-styles.css';
 
-const ShoeListing = () => {
+const ShoeListing = (props) => {
+	const setSortFilter = (event) => {
+		const checked = event.target.checked;
+
+		props.setFilters((prevFilters) => {
+			return {
+				...prevFilters,
+				sortByPrice: checked
+			};
+		});
+	}
+
 	return (
 		<div className='shoe-listing-container'>
 			<div className='shoe-listing-header'>
 				<div className='shoe-listing-title'>New Arrivals</div>
-				<CheckboxFilter />
+				<CheckboxFilter
+					label='Sort by Price'
+					applyCheckboxFilter={setSortFilter}
+				/>
 			</div>
 
-			<ShoeList />
+			<ShoeList
+				shoes={props.shoes}
+			/>
 		</div>
 	);
 };

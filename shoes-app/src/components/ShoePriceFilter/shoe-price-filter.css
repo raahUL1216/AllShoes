@@ -24,40 +24,101 @@
 }
 
 /* range slider css */
-.slidecontainer {
+.range {
+  display: grid;
+  text-align: center;
+  place-items: center;
+  height: 80px;
+  margin: 2rem 0;
+}
+
+.sliderValue {
+  position: relative;
   width: 100%;
 }
 
-.slider {
+.sliderValue span {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  transform: translateX(0%) scale(0);
+  font-weight: 500;
+  top: -45px;
+  line-height: 55px;
+  z-index: 2;
+  color: #fff;
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sliderValue span.show {
+  transform: translateX(-70%) scale(0.7);
+}
+
+.sliderValue span:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: var(--form-control-color);
+  border: 3px solid #fff;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  border-bottom-left-radius: 50%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.field .value {
+  font-weight: 500;
+}
+
+.field .value.left {
+  padding-right: 0.5rem;
+}
+
+.field .value.right {
+  padding-left: 0.5rem;
+}
+
+.range input {
   -webkit-appearance: none;
   width: 100%;
+  height: 3px;
+  background: #ddd;
+  border: none;
+  z-index: 2;
+}
+
+.range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
   height: 15px;
-  border-radius: 5px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
+  border-radius: 50%;
+  background: var(--form-control-color);
+  border: 1px solid var(--form-control-color);
+  cursor: pointer;
 }
 
-.slider:hover {
-  opacity: 1;
-}
-
-.slider::-webkit-slider-thumb {
+.range input::-moz-range-thumb {
   -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: var(--form-control-color);
+  border: 1px solid var(--form-control-color);
   cursor: pointer;
 }
 
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #04aa6d;
-  cursor: pointer;
+.range input::-moz-range-progress {
+  background: #664aff;
 }
