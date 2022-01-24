@@ -62,19 +62,6 @@
   text-align: start;
 }
 
-@media screen and (max-width: 600px) {
-  .shoe-list > div.shoe-item {
-    width: 100%;
-    height: 20rem;
-    margin-left: 0;
-  }
-
-  .shoe-item .shoe-item-image {
-    width: 100%;
-    height: 8rem;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .shoe-list > div.shoe-item {
     margin: 1rem 1rem 1rem 0;
