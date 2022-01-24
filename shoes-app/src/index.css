@@ -19,11 +19,9 @@ code {
   --form-control-color: rebeccapurple;
   --form-control-disabled: #959495;
 
-  --left-panel-width: 25vw;
-  --right-panel-width: 75vw;
+  --left-panel-width: 23vw;
+  --right-panel-width: 77vw;
   --navbar-height: 12vh;
   --filter-container-height: 88vh;
   --container-space-left: 3rem;
-  --container-space-top: 1rem;
-  --container-space-right: 1rem;
 }
