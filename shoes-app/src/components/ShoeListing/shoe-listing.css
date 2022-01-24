@@ -4,7 +4,7 @@
   justify-content: flex-start;
   width: var(--right-panel-width);
   height: 100%;
-  padding: 3rem 1.5rem 3rem 1.5rem;
+  padding: 3rem;
   border-right: 1px solid var(--element-border);
   overflow-y: auto;
 }
@@ -28,5 +28,11 @@
 
   .shoe-listing-header .shoe-listing-title {
     font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .shoe-listing-container {
+    padding: 3rem 1.5rem;
   }
 }
