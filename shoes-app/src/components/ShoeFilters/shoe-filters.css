@@ -1,15 +1,12 @@
 .shoe-filters-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: var(--left-panel-width);
+  width: min(var(--left-panel-width), 96vw);
   height: 100%;
-  padding-top: 2rem;
+  padding-top: var(--space-around);
   border-right: 1px solid var(--element-border);
   overflow-y: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 40rem) {
   .shoe-filters-container {
     display: none;
   }

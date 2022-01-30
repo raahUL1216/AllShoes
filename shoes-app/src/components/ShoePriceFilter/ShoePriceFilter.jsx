@@ -18,7 +18,7 @@ const ShoePriceFilter = (props) => {
 		const slideValue = document.getElementById("price-slider-value");
 
 		const currentValue = inputSlider.value;
-		let indicatorPosition = (currentValue / 10);
+		let indicatorPosition = (currentValue / 40);
 
 		slideValue.textContent = currentValue;
 		slideValue.style.left = indicatorPosition + "%";
@@ -34,8 +34,8 @@ const ShoePriceFilter = (props) => {
 		<div className='price-filter-container'>
 			<div className='price-filter-title'>Price</div>
 
-			<div className='range'>
-				<div className='sliderValue'>
+			<div className='price-range'>
+				<div className='range-slider-value'>
 					<span id='price-slider-value'>{props.filters.maxPrice}</span>
 				</div>
 

@@ -1,11 +1,5 @@
-.size-filter-container .size-filter-title {
-  font-size: 1.5rem;
-  font-weight: 400;
-  padding: 1rem 3rem;
-}
-
 .size-filter-container > * {
-  padding: 0 3rem 3rem 3rem;
+  padding: 1rem var(--space-around);
 }
 
 .size-filter-container .size-filter {
@@ -13,26 +7,15 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .size-filter .size-filter-item {
   cursor: pointer;
   padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 0;
   border: 1px solid var(--element-border);
 }
 
 .size-filter-item.selected-shoe-size {
   outline: 1px solid black;
-}
-
-@media screen and (max-width: 768px) {
-  .size-filter-container .size-filter-title {
-    padding: 1rem;
-  }
-
-  .size-filter-container > * {
-    padding: 0 1rem;
-  }
 }

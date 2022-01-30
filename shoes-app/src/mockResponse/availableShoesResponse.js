@@ -2,7 +2,7 @@ export const availableShoes = [
 	{
 		id: 1,
 		name: 'Nike Air',
-		price: '120',
+		price: '2000',
 		brand: 'Nike',
 		color: ['black'],
 		size: ['36', '37', '38', '45', '46'],
@@ -18,7 +18,7 @@ export const availableShoes = [
 	{
 		id: 2,
 		name: 'GEL-Kayano Trainer 21',
-		price: '700',
+		price: '3500',
 		brand: 'asics',
 		color: ['blue'],
 		size: ['35', '36', '42', '43', '44', '45', '46', '47', '48', '49'],
@@ -34,7 +34,7 @@ export const availableShoes = [
 	{
 		id: 3,
 		name: 'Bata Lace-up',
-		price: '550',
+		price: '1800',
 		brand: 'Bata',
 		color: ['brown'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -50,7 +50,7 @@ export const availableShoes = [
 	{
 		id: 4,
 		name: 'Running shoes',
-		price: '110',
+		price: '1100',
 		brand: 'Adidas',
 		color: ['red', 'black'],
 		size: ['36', '37', '38', '39', '40', '41', '45', '46', '47'],
@@ -66,7 +66,7 @@ export const availableShoes = [
 	{
 		id: 5,
 		name: 'Wood Pro',
-		price: '400',
+		price: '1200',
 		brand: 'Woodland',
 		color: ['grey'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '45', '46', '47'],
@@ -82,7 +82,7 @@ export const availableShoes = [
 	{
 		id: 6,
 		name: 'Running shoes',
-		price: '200',
+		price: '800',
 		brand: 'Puma',
 		color: ['grey'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '45', '46', '47'],
@@ -98,7 +98,7 @@ export const availableShoes = [
 	{
 		id: 7,
 		name: 'Running shoes',
-		price: '300',
+		price: '900',
 		brand: 'Reabok',
 		color: ['blue', 'red'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47'],
@@ -114,7 +114,7 @@ export const availableShoes = [
 	{
 		id: 8,
 		name: 'Running shoes',
-		price: '450',
+		price: '1350',
 		brand: 'asics',
 		color: ['blue'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49'],
@@ -130,7 +130,7 @@ export const availableShoes = [
 	{
 		id: 9,
 		name: 'Nike Pro Skate',
-		price: '850',
+		price: '3850',
 		brand: 'Nike',
 		color: ['black'],
 		size: ['36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49'],
@@ -146,7 +146,7 @@ export const availableShoes = [
 	{
 		id: 10,
 		name: 'Adidas Premium',
-		price: '300',
+		price: '1200',
 		brand: 'Adidas',
 		color: ['black'],
 		size: ['42', '43', '44', '45', '46', '47', '48', '49'],
@@ -162,7 +162,7 @@ export const availableShoes = [
 	{
 		id: 11,
 		name: 'Slippers',
-		price: '80',
+		price: '400',
 		brand: 'KRAVEN',
 		color: ['blue'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -178,7 +178,7 @@ export const availableShoes = [
 	{
 		id: 12,
 		name: 'Suede Leather Ankle Boots',
-		price: '780',
+		price: '3200',
 		brand: 'OHM New York',
 		color: ['blue'],
 		size: ['35', '36', '42', '43', '44', '45', '46', '47', '48', '49'],
@@ -194,7 +194,7 @@ export const availableShoes = [
 	{
 		id: 13,
 		name: 'Nike Air Max',
-		price: '150',
+		price: '750',
 		brand: 'Nike',
 		color: ['white'],
 		size: ['36', '37', '38', '39', '45', '46', '47'],
@@ -210,7 +210,7 @@ export const availableShoes = [
 	{
 		id: 14,
 		name: 'Casuals For Men',
-		price: '500',
+		price: '1500',
 		brand: 'Hush Puppies',
 		color: ['black'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -226,7 +226,7 @@ export const availableShoes = [
 	{
 		id: 15,
 		name: 'Mocassin For Men',
-		price: '400',
+		price: '1400',
 		brand: 'ALLEVIATER',
 		color: ['brown'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -242,7 +242,7 @@ export const availableShoes = [
 	{
 		id: 16,
 		name: 'Mocassin For Men  (Tan)',
-		price: '250',
+		price: '1250',
 		brand: 'bacca bucci',
 		color: ['tan'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -258,7 +258,7 @@ export const availableShoes = [
 	{
 		id: 17,
 		name: 'Loafers For Men',
-		price: '700',
+		price: '2700',
 		brand: 'Neeman\'s',
 		color: ['red'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],
@@ -274,7 +274,7 @@ export const availableShoes = [
 	{
 		id: 18,
 		name: 'Slides',
-		price: '50',
+		price: '350',
 		brand: 'Adidas',
 		color: ['black', 'white'],
 		size: ['36', '37', '38', '39', '40', '45', '46', '47'],

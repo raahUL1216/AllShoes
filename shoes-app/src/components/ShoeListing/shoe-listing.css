@@ -1,38 +1,27 @@
 .shoe-listing-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: var(--right-panel-width);
   height: 100%;
-  padding: 3rem;
+  padding: var(--space-around);
   border-right: 1px solid var(--element-border);
   overflow-y: auto;
 }
 
 .shoe-listing-header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
 .shoe-listing-header .shoe-listing-title {
-  font-size: 2rem;
-  font-weight: 500;
-  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-@media screen and (max-width: 600px) {
-  .shoe-listing-container {
-    width: 100vw;
-  }
-
-  .shoe-listing-header .shoe-listing-title {
-    font-size: 1.6rem;
-  }
+.shoe-listing-header .checkbox-filter {
+  margin-right: var(--space-around);
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 40rem) {
   .shoe-listing-container {
-    padding: 3rem 1.5rem;
+    width: var(--right-panel-width);
   }
 }

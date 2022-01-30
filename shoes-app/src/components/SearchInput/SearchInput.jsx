@@ -64,7 +64,7 @@ const SearchInput = (props) => {
 
 			<input type="text"
 				className='search-input'
-				placeholder="Search shoe"
+				placeholder="Search by brand, color, category."
 				value={props.filters.searchText}
 				onChange={searchItem}
 				onKeyUp={searchItem}
