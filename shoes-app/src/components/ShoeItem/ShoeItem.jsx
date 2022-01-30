@@ -22,7 +22,8 @@ const ShoeItem = (props) => {
 				<div className='shoe-price-info'>
 					<div className='price-title'>Price</div>
 					<div className='price-value'>
-						<span>$</span>{props.shoe.price}
+						{/* Rupee symbol is &#x20b9; */}
+						<span>&#x20b9;</span>{props.shoe.price}
 					</div>
 				</div>
 				<div className='shoe-additional-images'>

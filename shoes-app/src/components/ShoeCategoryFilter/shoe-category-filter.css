@@ -1,23 +1,8 @@
 .category-filters {
-  padding: 1rem 3rem;
-}
-
-.category-filter-container .category-header {
-  font-size: 1.5rem;
-  font-weight: 400;
-  padding: 1rem 3rem;
+  padding: 1rem var(--space-around);
 }
 
 .category-filters > * {
   padding: 0.5em;
-}
-
-@media screen and (max-width: 768px) {
-  .category-filters {
-    padding: 1rem;
-  }
-
-  .category-filter-container .category-header {
-    padding: 1rem;
-  }
+  padding-left: 0;
 }

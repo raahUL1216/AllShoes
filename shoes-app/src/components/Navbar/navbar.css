@@ -1,9 +1,8 @@
 .navbar-container {
-  position: sticky;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: var(--navbar-height);
+  min-height: var(--navbar-height);
   border-bottom: 1px solid var(--element-border);
 }
 
@@ -11,11 +10,11 @@
   font-size: 1.5rem;
   font-weight: 500;
   width: var(--left-panel-width);
-  padding-left: var(--container-space-left);
+  padding-left: var(--space-around);
 }
 
 /* hide shoe title on mobile screen */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 40rem) {
   .navbar-container .navbar-title {
     display: none;
   }

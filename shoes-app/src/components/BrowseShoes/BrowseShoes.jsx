@@ -10,7 +10,7 @@ const BrowseShoes = () => {
 	const [filters, setFilters] = React.useState({
 		searchText: '',
 		categories: [],
-		maxPrice: 1000,
+		maxPrice: 4000,
 		size: 0,
 		sortByPrice: false
 	});
